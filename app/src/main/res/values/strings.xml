@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">finalproject</string>
+    <string name="imagebutton2">imageButton2</string>
+    <string name="imagebutton3">imageButton3</string>
+    <string name="iamgebutton4">imageButton4</string>
+    <string name="imagebutton5">imageButton5</string>
+    <string name="hi">button1</string>
+    <string name="my_string">OTHERS!</string>
+    <color name="btColor">#8c2360</color>
+    <string name="imagebutton6">imagebutton6</string>
+    <string name="brunomars1">brunomars1</string>
+    <string name="buyicon1">buyicon1</string>
+    <string name="camerilo1">camerio1</string>
+    <string name="eminem2017">eminem2017</string>
+    <string name="talyswift">talyorswift</string>
+    <string name="textView5">Talyor Swift</string>
+</resources>

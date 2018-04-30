@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#000000"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main4Activity">
+
+    <ImageView
+        android:contentDescription="@string/eminem2017"
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="280dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/eminem2017" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageView2"
+        android:text="Marshall Bruce Mathers III"
+        android:textColor="#a3090e"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true"
+        android:text="Eminem"
+        android:textColor="#a3090e"
+        android:textSize="50sp" />
+
+    <ImageButton
+        android:onClick="open1"
+        android:id="@+id/imageButton"
+        android:layout_width="153dp"
+        android:layout_height="155dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="12dp"
+        app:srcCompat="@drawable/buy111" />
+
+    <ImageButton
+        android:onClick="open2"
+        android:id="@+id/imageButton3"
+        android:layout_width="177dp"
+        android:layout_height="150dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        app:srcCompat="@drawable/image22" />
+
+</RelativeLayout>

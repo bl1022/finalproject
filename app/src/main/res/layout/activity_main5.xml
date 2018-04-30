@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#000000"
+    android:layout_height="match_parent"
+    tools:context=".Main5Activity">
+
+    <ImageView
+        android:contentDescription="@string/talyswift"
+        android:id="@+id/imageView13"
+        android:layout_width="wrap_content"
+        android:layout_height="264dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="12dp"
+        app:srcCompat="@drawable/timg" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="278dp"
+        android:layout_height="91dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="204dp"
+        android:layout_marginEnd="37dp"
+        android:text="@string/textView5"
+        android:textColor="@color/btColor"
+        android:textStyle="bold"
+        android:textSize="50sp" />
+
+    <ImageButton
+        android:onClick="open1"
+        android:id="@+id/imageButton2"
+        android:layout_width="167dp"
+        android:layout_height="167dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="21dp"
+        android:layout_marginStart="22dp"
+        app:srcCompat="@drawable/buy111" />
+
+    <ImageButton
+        android:onClick="open1"
+        android:id="@+id/imageButton9"
+        android:layout_width="170dp"
+        android:layout_height="145dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="35dp"
+        app:srcCompat="@drawable/image22" />
+</RelativeLayout>

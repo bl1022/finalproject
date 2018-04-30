@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".MainActivity">
+
+
+    <ImageButton
+        android:id="@+id/imageButton8"
+        android:layout_width="173dp"
+        android:layout_height="178dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="@string/imagebutton3"
+        app:srcCompat="@drawable/images" />
+
+    <ImageButton
+        android:contentDescription="@string/imagebutton2"
+        android:id="@+id/imageButton10"
+        android:layout_width="215dp"
+        android:layout_height="249dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/tumblr_ot16gasY7F1tpzc2co3_400" />
+
+    <ImageButton
+        android:contentDescription="@string/iamgebutton4"
+        android:id="@+id/imageButton12"
+        android:layout_width="214dp"
+        android:layout_height="320dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        app:srcCompat="@drawable/image5" />
+
+    <ImageButton
+        android:id="@+id/imageButton16"
+        android:layout_width="170dp"
+        android:layout_height="240dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:contentDescription="@string/imagebutton5"
+        app:srcCompat="@drawable/tumblr_inline_mybo2dUvMu1qc7cul" />
+
+    <ImageButton
+        android:onClick="open"
+        android:contentDescription="@string/imagebutton6"
+        android:id="@+id/imageButton17"
+        android:layout_width="171dp"
+        android:layout_height="123dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="187dp"
+        app:srcCompat="@drawable/image22" />
+
+</RelativeLayout>
