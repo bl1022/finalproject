@@ -24,7 +24,7 @@
         android:layout_height="249dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentTop="true"
-        app:srcCompat="@drawable/tumblr_ot16gasY7F1tpzc2co3_400" />
+        app:srcCompat="@drawable/gg33" />
 
     <ImageButton
         android:contentDescription="@string/iamgebutton4"
@@ -42,7 +42,7 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
         android:contentDescription="@string/imagebutton5"
-        app:srcCompat="@drawable/tumblr_inline_mybo2dUvMu1qc7cul" />
+        app:srcCompat="@drawable/gg22" />
 
     <ImageButton
         android:onClick="open"

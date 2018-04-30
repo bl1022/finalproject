@@ -46,6 +46,6 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
         android:layout_marginStart="207dp"
-        app:srcCompat="@drawable/oK1L9X5" />
+        app:srcCompat="@drawable/k23232" />
 
 </RelativeLayout>
