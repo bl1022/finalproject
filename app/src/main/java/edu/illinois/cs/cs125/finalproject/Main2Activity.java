@@ -5,13 +5,27 @@ import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ImageButton;
 
 public class Main2Activity extends AppCompatActivity {
-
+    ImageButton androidImageButton;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
+        androidImageButton = (ImageButton) findViewById(R.id.imageButton6);
+        androidImageButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                switch (v.getId()) {
+                    case R.id.imageButton6:
+                        Intent intentLoadNewActivity = new Intent(Main2Activity.this, Main6Activity.class);
+                        startActivity(intentLoadNewActivity);
+                        break;
+                }
+            }
+
+        });
     }
 
     public void open2(View view) {
