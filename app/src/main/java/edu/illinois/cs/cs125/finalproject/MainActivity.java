@@ -17,15 +17,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-//        new Handler().postDelayed(new Runnable() {
-//            @Override
-//            public void run() {
-//                Intent homeIntent = new Intent(MainActivity.this, HomeActivity.class);
-//                startActivity(homeIntent);
-//                finish();
-//            }
-//
-//        },SPLASH_TIME_OUT);
         ImageButton button1 = (ImageButton) findViewById(R.id.imageButton8);
         ImageButton button2 = (ImageButton) findViewById(R.id.imageButton10);
         ImageButton button3 = (ImageButton) findViewById(R.id.imageButton12);
@@ -33,8 +24,8 @@ public class MainActivity extends AppCompatActivity {
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-        Intent int1 = new Intent(MainActivity.this, Main2Activity.class);
-        startActivity(int1);
+                Intent int1 = new Intent(MainActivity.this, Main2Activity.class);
+                startActivity(int1);
             }
         });
         button2.setOnClickListener(new View.OnClickListener() {
@@ -86,6 +77,16 @@ public class MainActivity extends AppCompatActivity {
 //            }
 //
 //        });
+//        new Handler().postDelayed(new Runnable() {
+//            @Override
+//            public void run() {
+//                Intent homeIntent = new Intent(MainActivity.this, HomeActivity.class);
+//                startActivity(homeIntent);
+//                finish();
+//            }
+//
+//        },SPLASH_TIME_OUT);
+//    }
     }
     public void open(View view) {
         Intent broseIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/watch?v=2Vv-BfVoq4g&list=PLI_7Mg2Z_-4I-W_lI55D9lBUkC66ftHMg"));

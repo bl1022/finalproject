@@ -42,7 +42,7 @@
         app:srcCompat="@drawable/buy111" />
 
     <ImageButton
-        android:onClick="open1"
+        android:onClick="open2"
         android:id="@+id/imageButton9"
         android:layout_width="170dp"
         android:layout_height="145dp"

@@ -1,5 +1,7 @@
 package edu.illinois.cs.cs125.finalproject;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -46,8 +48,12 @@ public class Main6Activity extends YouTubeBaseActivity {
             @Override
             public void onClick(View v) {
                 Log.d(TAG, "onClick: Intializing Youtube Player");
-                mYouTubePlayerView.initialize(youtube111.getApiKey(),mOnInitializedListener);
+                mYouTubePlayerView.initialize(youtube111.getApiKey(), mOnInitializedListener);
             }
         });
     }
-}
+        public void open222(View view) {
+            Intent broseIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.vividseats.com/concerts/bruno-mars-tickets.html?utm_source=google&utm_medium=cpc&utm_campaign=Concerts+AB&utm_term=bruno+mars+tickets&vkid=7730077&gclid=Cj0KCQjw_ZrXBRDXARIsAA8KauTCyllJnqJxfxKlOP722jfdSM6MR8QRHqr3H8jfwnntIeIAoGl0D0kaApXSEALw_wcB"));
+            startActivity(broseIntent);
+        }
+    }
